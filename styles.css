@@ -1,0 +1,25 @@
+.title{
+    color:hotpink;
+    width: 312px;
+    height: 50px;
+    background-color: blanchedalmond;
+}
+
+label{
+    width: 312px;
+    height: 50px;
+    background-color: blanchedalmond;
+}
+
+input {
+    width: 312px;
+    height: 50px;
+    background-color: blanchedalmond;
+
+}
+
+button {
+    width: 312px;
+    height: 50px;
+    background-color: aliceblue;
+}
