@@ -1,9 +1,3 @@
-.title{
-    color:black;
-    width: 312px;
-    height: 50px;
-    background-color: maroon;
-}
 #seleccionar-mascota {
     display: flex;
     flex-direction: column;
@@ -11,10 +5,19 @@
     align-items: center;
 }
 
+.title{
+    color:white;
+    
+ }
+.tarjetas {
+    display: flex;
+    gap: 10px;
+}
+
 .tarjeta-de-mokepon {
     width: 100px;
     height: 40px;
-    background: maroon;
+    background: rgb(211, 129, 129);
     padding: 15px;
     box-sizing: border-box;
     margin: 10px;
