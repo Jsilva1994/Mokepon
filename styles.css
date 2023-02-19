@@ -29,16 +29,32 @@ body{
 }
 
 .tarjeta-de-mokepon {
-    width: 100px;
+    width: 160px;
     height: 100px;
     background-color: rgb(191, 177, 177);
     padding: 12px;
     box-sizing: border-box;
     margin: 10px;
     border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 
 }
+#boton-mascota {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: white
 
+}
+.tarjeta-de-mokepon img {
+    width: 80px;
+}
 input{
     display:none;
 }
