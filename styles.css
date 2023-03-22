@@ -1,40 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
-body{
+body {
     font-family: 'Fredoka One', cursive;
-    background-color: rgb(93, 148, 238);
-    
+    background-color: transparent;
+    }
+
+.background-image {
+    background-image: url("https://ffwallpaper.com/wallup/xenoblade-chronicles/xenoblade-chronicles-31.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 1005px;
+
 }
 
 #seleccionar-mascota {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-}
+    align-content: center;
+    }
 
 
-.title{
-    color:beige;
+.title {
+    color: black;
     font-size: 32px;
-    font-family: 'Fredoka One', cursive;    
+    font-family: 'Fredoka One', cursive;   
+    display: flex;
+    justify-content: center; 
+    align-content: center;
  }
 
 .subtitle {
-    color:beige ;
+    color:black ;
     font-size: 24px;
+    display: flex;
+    justify-content: center; 
+    align-content: center;
     
 }
 .tarjetas {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-content: center;
     gap: 10px;
 }
 
 .tarjeta-de-mokepon {
     width: 160px;
     height: 100px;
-    background-color: rgb(172, 183, 218);
+    background-color: transparent;
     padding: 12px;
     box-sizing: border-box;
     margin: 10px;
@@ -43,7 +58,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
 
 }
 #boton-mascota {
@@ -51,18 +66,20 @@ body{
     height: 40px;
     border-radius: 20px;
     background: transparent;
+    padding: 10px;
     border: 2px solid black;
     font-family: 'Fredoka One', cursive;
+    display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
 
     margin-top: 30px;
 }
 .tarjeta-de-mokepon img {
     width: 80px;
 }
-input{
+input {
     display:none;
 }
 
@@ -73,12 +90,14 @@ input{
 
 .boton-de-ataque {
 
-    background-color: rgb(172, 183, 218);
-    padding: 12px;
+    background-color: transparent;
+    padding: 10px;
+    width: 180px;
+    height: 40px;
     border-radius: 20px;
     margin: 10px;
     border: 2px solid black;
     width: 100px; 
-    color: white;
+    color: black;
     font-family: 'Fredoka One', cursive;
 }

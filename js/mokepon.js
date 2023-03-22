@@ -31,7 +31,7 @@ function seleccionarMascotaJugador() {
 
   let sectionSeleccionarMascota = document.getElementById("seleccionar-mascota")
     sectionSeleccionarMascota.style.display = "none"
-
+  
 
   let imputHipodoge = document.getElementById("hipodoge") 
   let imputCapipepo = document.getElementById("capipepo") 
